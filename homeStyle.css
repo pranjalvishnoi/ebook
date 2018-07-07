@@ -1,0 +1,72 @@
+@CHARSET "ISO-8859-1";
+
+
+ 
+	body {  
+	background: linear-gradient(to right,powderblue ,white);  
+	height:100%;
+	}
+
+
+	#head{
+	display:block;
+	text-align:right;
+	border-style: groove;
+	background-color:powderblue;
+
+	border-color:powderblue;
+	border-width:2px;
+	position:fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	width:100%;
+	opacity:.8;
+	transition: width 2s, height 2s, transform 2s; 
+	} 
+ 	
+	#nf{
+	display:none;
+	text-align:left;
+	}
+	
+	.view{
+	display:none;
+	text-align:right;
+	border-style: groove;
+	background-color:powderblure;
+	border-color:powderblue;
+	border-width:2px;
+	position:fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	width:100%;
+	opacity:.8;
+	}
+	
+	.container{width:100%;
+	height:1100px;
+	posotion:relative;}  
+	
+	.left{width:25%;float:left;min-height:100%;background-color:powderblue;
+	}
+	
+	.body{width:28%;float:left;margin-left:3%;}   
+	
+	.right{width:40%;float:left;min-height:100%;margin-top:20px;} 
+	
+	.top{width:210px;
+	margin-top:20px;
+	height:250px;
+	vertical-align:text-top;}
+	
+
+ #foot{
+
+background-color:powderblue;
+}
+
+ #lfoot{
+margin-left:65%;	
+}	
